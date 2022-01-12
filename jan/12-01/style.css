@@ -9,3 +9,13 @@ nav ul li a {
     color: whitesmoke;
     text-decoration: none;
 }
+  background-color: black;
+}
+nav ul li {
+  display: inline;
+  margin-right: 3rem;
+}
+nav ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
