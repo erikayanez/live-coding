@@ -1,1 +1,22 @@
 /* New CSS practice */
+
+body{
+    background-color: #9CBAD9;
+}
+
+nav {
+    background-color: #B3E7F8;
+}
+image {
+    box-sizing: border-box;
+    width: 25%min-content;
+    border: 2px solid #9CBAD9;
+
+nav ul li {
+    display: inline;
+    margin-right: 3rem;
+    color: #9E9CD9;
+}
+
+
+}
