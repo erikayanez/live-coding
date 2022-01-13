@@ -31,6 +31,10 @@ nav ul li a {
 
 }
 
+.name {
+    color: #403d97
+
+}
 img {
     float: left;
     width: 200px;
@@ -40,3 +44,10 @@ img {
     float: right;
 }
 
+.yoga {
+    float: right;
+}
+
+.location {
+    color: #403d97
+}
