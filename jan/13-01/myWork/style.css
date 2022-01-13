@@ -1,0 +1,31 @@
+p {
+    background-color: olivedrab;
+}
+
+div p {
+    background-color: red;
+}
+
+li{
+    background-color: yellow;
+}
+
+ul li {
+    background-color: yellowgreen;
+}
+
+nav ul li {
+    background-color: violet;
+}
+
+.dark-style {
+    background-color: pink;
+}
+
+.dark {
+    background-color: white;
+}
+
+.light {
+    color: yellowgreen;
+}
