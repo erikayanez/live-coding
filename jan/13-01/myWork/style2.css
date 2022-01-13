@@ -1,4 +1,6 @@
 /* New CSS practice */
+
+
 p {
     color: #403d97;
     font-size: 20px;
@@ -6,12 +8,17 @@ p {
 }
 
 body{
+    box-sizing: border-box;
     background-color:#B8C5F0D9;
+    padding: 20px 40px;
+    margin: 20p auto;
+    border: 10px solid #9E9CD9;
 }
 
 nav {
     background-color: #B3E7F8;
     text-align: center; 
+    word-spacing: 100px;
     clear: both;
 }
 
@@ -32,7 +39,7 @@ nav ul li a {
 }
 
 .name {
-    color: #403d97;
+    color: #7774cc;
    text-align:justify;
 }
 img {
@@ -44,8 +51,20 @@ img {
     float: right;
 }
 
+.face:hover {
+    width:400px;
+    border: 5px solid #7774cc;
+    box-shadow: #B3E7F8;
+}
+
 .yoga {
     float: right;
+}
+
+.yoga:hover {
+    width:400px;
+    border: 5px solid #7774cc;
+    box-shadow: #B3E7F8;
 }
 
 .location {
