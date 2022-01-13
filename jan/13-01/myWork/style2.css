@@ -32,8 +32,8 @@ nav ul li a {
 }
 
 .name {
-    color: #403d97
-
+    color: #403d97;
+   text-align:justify;
 }
 img {
     float: left;
