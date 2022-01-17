@@ -64,3 +64,10 @@ main img{
     margin: 20rem 5 rem 5rem 2rem;
     border: 12px red solid;
 }
+h1 {
+    color: black;
+    letter-spacing: 5px;
+    word-spacing: 8px;
+    text-indent: 100px;
+    
+}
