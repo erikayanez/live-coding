@@ -1,5 +1,24 @@
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: white;
+    background-image:
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Menu */
+header nav{
+    background-color: rgba(0, 0, 0, 0.766);
+    position: fixed;
+}
+nav ul li {
+    height: 3rem;
+    display: inline;
+    margin-left: 3rem;
 }
 h1 {
     color: red;
@@ -31,4 +50,10 @@ span {
     left: 50px;
     background-color: rgba(0, 0, 255, 0.5);
 
+}
+/* Styling About */
+main image{
+    width: 150px;
+    height: 150px;
+    border-top: 40px black solid;
 }
