@@ -8,7 +8,6 @@
     background-color: violet;
     width: 4rem;
     height: 3rem;
-    border-bottom: ;
 
 }
 #green{
@@ -23,3 +22,5 @@ section div {
     height: 3rem;
     border: 2px solid black;
     display:inline-block;
+    margin-left: 3rem;
+}
