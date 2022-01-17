@@ -1,0 +1,25 @@
+#blue{
+    background-color: blue;
+    width: 3rem;
+    height: 8rem;
+    border: 2px solid black;
+}
+#lila{
+    background-color: violet;
+    width: 4rem;
+    height: 3rem;
+    border-bottom: ;
+
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+    border-radius: 50%;
+}
+section div {
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid black;
+    display:inline-block;

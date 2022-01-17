@@ -1,4 +1,4 @@
-:root{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -55,4 +55,5 @@ main img{
     width: 150px;
     height: 150px;
     border-top: 40px black solid;
+    padding: 10px;
 }
