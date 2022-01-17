@@ -57,3 +57,10 @@ main img{
     border-top: 40px black solid;
     padding: 10px;
 }
+.something{
+    width: 10rem;
+    height: 20rem;
+    background-color: blue;
+    margin: 20rem 5 rem 5rem 2rem;
+    border: 12px red solid;
+}
