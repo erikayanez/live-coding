@@ -1,0 +1,41 @@
+html {
+    font-size: 16px;
+}
+nav {
+    background-color: black;
+    color: white;
+}
+ul li {
+    background-color: black;
+    display: inline;
+    margin-left: 3rem;
+    font-size: 2rem;
+}
+a,
+a:visited,
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    background-color: white;
+    color: black;
+}
+h1 {
+    letter-spacing: 10px;
+    text-align: center;
+}
+div {
+    font-size: 20px;
+}
+    p {
+    color: orange;
+    word-spacing: 10px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-style: italic;
+
+
+}
