@@ -96,6 +96,11 @@ main img {
 #triangle {
   background-color: purple;
   /* some more roles  */
+  width: 0;
+  height: 0;
+  border-bottom: 300px transparent solid;
+  border-right: 300px transparent solid;
+  border-left: 600px black solid;
 }
 #square {
   background-color: green;
@@ -114,4 +119,14 @@ h1 {
 }
 p {
   line-height: 40px;
+<<<<<<< HEAD
 }
+=======
+}
+.box {
+  background-color: lightblue;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 20% 5% 20% 5%;
+}
+>>>>>>> a0baec8ab909ae652e888c67390d137231faca0d
