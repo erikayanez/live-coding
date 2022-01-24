@@ -14,7 +14,26 @@
   </head>
   <body>
       <form action="index.js" method="get">
-          <input type="text" name="fName" id="">
+       
+        <fieldset>
+            <legend>Personal Info</legend>
+             <input type="text" name="fName" id="1" placeholder="Your first name">
+             <input type="text" name="lName" id="2" placeholder="Your last name">
+             <input type="email" name="emain" id="3" placeholder="your email" required>
+        </fieldset>
+        <fieldset>
+            <legend>Favorite Things</legend>
+            <input type="color" name="color id="4/>
+            <input type="time" name="" id="5">
+            <input type="number" min="1" max="10" id="6" required>
+            <select name="season" id="7">
+                <option value="summer">Summer</option>
+                <option value="autum">Autum</option>
+                <option value="winter">Winter</option>
+                <option value="sprint">Spring</option>
+            </select>
+            
+        </fieldset>
         <input type="submit" value="send">
         <input type="reset" value="clear">
 
