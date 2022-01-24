@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Dongle;
+    width: 100vw;
+    height: 100vh;
+}
+
+i {
+    font-size: 3rem;
+    color: orange;
+    box-shadow: 3px 4px gray;
+}
