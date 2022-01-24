@@ -37,6 +37,41 @@ fieldset input:focus{
     border-bottom: 2px orange solid;
 
 }
+
+.toggle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.switch input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+
+}
+
+.switch{
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    border: 2px red dashed;
+    margin-left: 1rem;
+}
+
+.slider{ 
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border: 2px orange solid;
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 5rem;
+    transition: 0.2s;
+}
+
 i {
     font-size: 3rem;
     color: var(--orange-is-my-fav);
