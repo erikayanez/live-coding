@@ -10,12 +10,16 @@ body {
     font-family: Dongle;
     width: 100vw;
     height: 100vh;
+    font-size: 30px;
+    background-color: rgb(106, 144, 153);
+
 }
 
 form {
     margin: 25% auto;
     width: 50%;
     height: 50%;
+    background-color: rgb(235, 228, 214);
 }
 
 fieldset{
@@ -40,8 +44,10 @@ fieldset input:focus{
 
 .toggle{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
+    justify-content: right;
+    position: relative;
+    right: 3rem;
 }
 /* to hide the ugly html checkbox */
 .switch input{
@@ -74,13 +80,13 @@ fieldset input:focus{
 
 .slider::before{
     position: absolute;
-    content: "";
-    border-radius: 100%;
-    left: 0.25rem;
-    bottom: 0.35rem;
+    content: ":hotel:";
+    /* border-radius: 100%; */
+    left: 0.15rem;
+    bottom: 1rem;
     width: 1rem;
     height: 1rem;
-    background-color: white;
+    /* background-color: white; */
 }
 
 input:checked + .slider{
@@ -88,8 +94,8 @@ input:checked + .slider{
 }
 
 input:checked + .slider::before{
-    transform: translateX(2.5rem);
-    transition: 0.8s;
+    transform: translateX(1.5rem);
+    /* transition: 0.8s; */
 }
 
 /* font-awesome */
