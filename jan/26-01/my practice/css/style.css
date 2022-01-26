@@ -6,6 +6,9 @@
 .container {
     display: flex;
     justify-content: space-around;
+    flex-flow: row wrap;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
     width: 40rem;
     height: 60rem;
     border: 2px black solid;
@@ -15,6 +18,8 @@
     width: 5rem;
     height: 8rem;
     border: 2px solid black;
+    color: white;
+    margin-left: 1rem;
 }
 
 .green {
