@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 40rem;
+    height: 60rem;
+    border: 2px black solid;
+}
+
+.child {
+    width: 5rem;
+    height: 8rem;
+    border: 2px solid black;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.red {
+    background-color: lightcoral;
+}
+
+.black {
+    background-color: black;
+}
