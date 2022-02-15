@@ -15,8 +15,9 @@ header form {
 header nav .menu {
   width: 30vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
+  margin-right: 2%;
 }
 /* hamburger */
 .hamburger {
