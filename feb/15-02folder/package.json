@@ -1,10 +1,10 @@
 {
-  "name": "15-02practice",
+  "name": "15-02folder",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "run-p watch watch:styles",
     "start": "run-p watch watch:styles",
     "build": "run-s clean clean:styles build:styles copy",
     "deploy": "run-s build publish",
@@ -14,8 +14,7 @@
     "clean": "rm -rf dist",
     "clean:styles": "rm -rf src/styles",
     "copy": "mkdir dist && rsync -avr --exclude=\"/scss\" src/ dist",
-    "publish": "gh-pages -d dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
