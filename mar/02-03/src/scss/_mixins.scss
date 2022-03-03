@@ -29,7 +29,7 @@ div {
 }
 // cool mixin
 // Declaring my mixins
-@mixin box-size-with-random-val($width, $height) {
+@mixin box-size-with-random-val($width,$height) {
   // scope
   width: $width;
   height: $height;
