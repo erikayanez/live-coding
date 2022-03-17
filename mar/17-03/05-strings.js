@@ -52,7 +52,7 @@ let string = "we are learning javascript";
 
 // 
 
-console.log(sentence[sentence.length - 1]);
+console.log(sentence[sentence.length - 1]); 
 
 
 console.log(sentence[2]);
