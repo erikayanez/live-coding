@@ -7,10 +7,6 @@
  *
  */
 
-// create an empty array and assign it to a variable
-let food = [];
-
-// get the length of the array and print it to the console
 console.log(food.length);
 
 // let's add an element to the food array
