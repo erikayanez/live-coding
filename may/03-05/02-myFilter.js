@@ -62,7 +62,6 @@ function myFilter(array, callbackFn) {
       result.push(item);
     }
   }
-  return result;
 }
 
 function divisibleBy2(number) {
